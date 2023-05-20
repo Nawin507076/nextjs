@@ -38,6 +38,7 @@ export default function IndexPage() {
         tweet()
       }}
       >
+      
           <div className=" w-full mt-48 mb-4 bg-black p-4 rounded-lg shadow-lg">
           <input type="text"
           className="bg-black text-white outline-none w-full"

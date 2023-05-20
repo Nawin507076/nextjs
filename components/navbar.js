@@ -24,11 +24,14 @@ export default function Navbar () {
         <Link href="/login">Login</Link>
       </div>
       <div>
-        <button className='bg-red-400 p-4'
+        <button className='bg-red-400 p-4 rounded-xl'
         onClick={hello}
         >
-          อะไร
+          พูดสิ
         </button>
+      </div>
+      <div className='text-blue-300 font-bold font '>
+        <h10>Twittee</h10>
       </div>
     </nav>
   )
