@@ -38,18 +38,20 @@ export default function IndexPage() {
         tweet()
       }}
       >
-        <div className="w-full mt-32 bg-white p-6 rounded-lg shadow">
-          <div className=" w-full bg-black p-4 rounded-lg shadow-lg">
+          <div className=" w-full mt-48 mb-4 bg-black p-4 rounded-lg shadow-lg">
           <input type="text"
+          className="bg-black text-white outline-none w-full"
           onChange={({target: {value}}) => 
             setName(value)}
             value={name}
-            required
+            placeholder="Your name"
           />
         </div>
+        <div className="w-full bg-white p-6 rounded-lg shadow">
           <textarea 
           rows={8} 
           className="outline-none w-full resize-none" 
+          placeholder="Say something ..."
           value={inputValue}
           onChange={(event) => {
             const value = event.target.value 
